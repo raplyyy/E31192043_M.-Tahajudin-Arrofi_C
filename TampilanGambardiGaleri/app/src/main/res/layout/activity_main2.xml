@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#333E7E"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POLITEKNIK NEGERI JEMBER"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="213dp"
+        android:layout_height="215dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#ababab" />
+
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:id="@+id/btnPickImage"
+        android:text="Pilih Gambar"
+        android:textStyle="bold"
+         android:textColorHighlight="@color/purple_200"
+         android:textColor="@color/white"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By. M. Tahajudin Arrofi"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
